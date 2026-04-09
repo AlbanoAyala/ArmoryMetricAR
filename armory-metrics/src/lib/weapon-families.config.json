@@ -1,0 +1,96 @@
+{
+  "pistol_striker": {
+    "label": "Pistola Striker-fired",
+    "label_short": "Pistola",
+    "maintenance_interval_shots": 500,
+    "maintenance_interval_days": 90,
+    "pressure_signs_threshold": 2,
+    "critical_components": [
+      { "name": "Cañón", "lifespan_shots": 20000, "weight": 0.30, "is_critical": true },
+      { "name": "Aguja percutora", "lifespan_shots": 10000, "weight": 0.25, "is_critical": true },
+      { "name": "Resorte recuperador", "lifespan_shots": 5000, "weight": 0.20, "is_critical": true },
+      { "name": "Extractor", "lifespan_shots": 15000, "weight": 0.15, "is_critical": true },
+      { "name": "Muelle de disparo", "lifespan_shots": 8000, "weight": 0.10, "is_critical": false }
+    ],
+    "recommended_cleaning_products": ["Ballistol", "Hoppes No.9", "CLP Break Free"],
+    "intensive_use_threshold_7d": 400
+  },
+  "pistol_hammer": {
+    "label": "Pistola Martillo",
+    "label_short": "Pistola",
+    "maintenance_interval_shots": 500,
+    "maintenance_interval_days": 90,
+    "pressure_signs_threshold": 2,
+    "critical_components": [
+      { "name": "Cañón", "lifespan_shots": 20000, "weight": 0.30, "is_critical": true },
+      { "name": "Martillo", "lifespan_shots": 15000, "weight": 0.20, "is_critical": true },
+      { "name": "Aguja percutora", "lifespan_shots": 10000, "weight": 0.25, "is_critical": true },
+      { "name": "Resorte recuperador", "lifespan_shots": 5000, "weight": 0.15, "is_critical": true },
+      { "name": "Extractor", "lifespan_shots": 15000, "weight": 0.10, "is_critical": false }
+    ],
+    "recommended_cleaning_products": ["Ballistol", "Hoppes No.9", "WD-40 Specialist"],
+    "intensive_use_threshold_7d": 400
+  },
+  "revolver": {
+    "label": "Revólver",
+    "label_short": "Revólver",
+    "maintenance_interval_shots": 300,
+    "maintenance_interval_days": 60,
+    "pressure_signs_threshold": 2,
+    "critical_components": [
+      { "name": "Cañón", "lifespan_shots": 15000, "weight": 0.30, "is_critical": true },
+      { "name": "Aguja percutora", "lifespan_shots": 8000, "weight": 0.25, "is_critical": true },
+      { "name": "Cilindro", "lifespan_shots": 20000, "weight": 0.25, "is_critical": true },
+      { "name": "Resorte principal", "lifespan_shots": 5000, "weight": 0.20, "is_critical": true }
+    ],
+    "recommended_cleaning_products": ["Ballistol", "Hoppes No.9"],
+    "intensive_use_threshold_7d": 300
+  },
+  "bolt_rifle": {
+    "label": "Fusil de Cerrojo",
+    "label_short": "Fusil",
+    "maintenance_interval_shots": 200,
+    "maintenance_interval_days": 60,
+    "pressure_signs_threshold": 1,
+    "critical_components": [
+      { "name": "Cañón", "lifespan_shots": 3000, "weight": 0.35, "is_critical": true },
+      { "name": "Cerrojo", "lifespan_shots": 5000, "weight": 0.25, "is_critical": true },
+      { "name": "Aguja percutora", "lifespan_shots": 6000, "weight": 0.20, "is_critical": true },
+      { "name": "Extractor", "lifespan_shots": 4000, "weight": 0.12, "is_critical": true },
+      { "name": "Disparador", "lifespan_shots": 8000, "weight": 0.08, "is_critical": false }
+    ],
+    "recommended_cleaning_products": ["Ballistol", "Hoppes No.9", "Montana X-Treme"],
+    "intensive_use_threshold_7d": 150
+  },
+  "semi_auto_rifle": {
+    "label": "Fusil Semiautomático",
+    "label_short": "FAL/AR",
+    "maintenance_interval_shots": 300,
+    "maintenance_interval_days": 30,
+    "pressure_signs_threshold": 2,
+    "critical_components": [
+      { "name": "Cañón", "lifespan_shots": 10000, "weight": 0.30, "is_critical": true },
+      { "name": "Portacierre", "lifespan_shots": 15000, "weight": 0.20, "is_critical": true },
+      { "name": "Aguja percutora", "lifespan_shots": 8000, "weight": 0.20, "is_critical": true },
+      { "name": "Extractor", "lifespan_shots": 5000, "weight": 0.15, "is_critical": true },
+      { "name": "Resorte recuperador", "lifespan_shots": 3000, "weight": 0.15, "is_critical": true }
+    ],
+    "recommended_cleaning_products": ["Ballistol", "CLP Break Free", "Slip 2000"],
+    "intensive_use_threshold_7d": 300
+  },
+  "pump_shotgun": {
+    "label": "Escopeta de Corredera",
+    "label_short": "Escopeta",
+    "maintenance_interval_shots": 400,
+    "maintenance_interval_days": 90,
+    "pressure_signs_threshold": 2,
+    "critical_components": [
+      { "name": "Cañón", "lifespan_shots": 30000, "weight": 0.30, "is_critical": true },
+      { "name": "Aguja percutora", "lifespan_shots": 10000, "weight": 0.25, "is_critical": true },
+      { "name": "Extractor", "lifespan_shots": 12000, "weight": 0.20, "is_critical": true },
+      { "name": "Resorte de acción", "lifespan_shots": 8000, "weight": 0.25, "is_critical": true }
+    ],
+    "recommended_cleaning_products": ["Ballistol", "Hoppes No.9"],
+    "intensive_use_threshold_7d": 200
+  }
+}

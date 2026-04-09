@@ -1,0 +1,44 @@
+{
+  "name": "armory-metrics-ar",
+  "version": "1.0.0",
+  "description": "PWA de tiro deportivo y gestión de armería para Argentina — ANMaC/RENAVE compliant",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "db:generate": "supabase gen types typescript --local > src/types/supabase.ts",
+    "db:migrate": "supabase db push",
+    "db:reset": "supabase db reset"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.43.4",
+    "@supabase/ssr": "^0.3.0",
+    "recharts": "^2.12.7",
+    "lucide-react": "^0.383.0",
+    "date-fns": "^3.6.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "resend": "^3.2.0",
+    "zod": "^3.23.8",
+    "react-hook-form": "^7.52.0",
+    "@hookform/resolvers": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3",
+    "tailwindcss": "^3.4.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.4",
+    "supabase": "^1.178.2"
+  }
+}
